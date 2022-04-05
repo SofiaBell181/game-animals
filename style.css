@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1886&q=80');
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    background-color: #977866b7;
+    margin-bottom: 100px;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.575);
+}
+
+h1 {
+    margin: 30px 0;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+#inner_area {
+    width: 500px;
+    height: 492px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+#cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    background-color: rgba(212, 211, 212, 0.596);
+    width: 160px;
+    height: 160px;
+    margin-left: 2px;
+}
+
+#container_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btn {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+    transition: 1s;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-bottom: 50px;
+    display: none;
+    text-align: center;
+}
+
+#btn:hover{
+    border: 5px solid #fff;
+}
+
+@media all and (max-width: 500px) {
+    #inner_area {
+        width: 350px;
+        height: 350px;
+    }
+
+    #cell {
+        width: 110px;
+        height: 115px;
+        margin-top: 2px;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+    .swal-width {
+        width: 300px !important;
+    }
+}
+
+@media all and (max-width: 350px) {
+    #inner_area {
+        width: 300px;
+        height: 292px;
+    }
+
+    #cell {
+        width: 95px;
+        height: 95px;
+    }
+  
+      img {
+        width: 90px;
+    }
+}
+
